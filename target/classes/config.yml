@@ -1,0 +1,30 @@
+# Settings for the SpecDark plugin.
+# Be careful messing with these values too beyond their defaults, these are the defaults for a balanced and good-looking experience.
+
+# Generator
+# Default 86, sets the height of the bedrock ceiling.
+ceiling-height: 86
+# Default 50, sets the average terrain level.
+floor-offset: 50
+# Default 4, sets the rarity of diamonds generating out of 10,000.
+diamond-rarity: 4
+
+#Ores
+# Default 18, number of times to try and make an ore.
+ore-tries: 18
+# Default 80, percentage that the ore will generate, out of 100.
+ore-chance: 80
+# Default 40, the maximum height in stone that the plugin will attempt to generate ore at.
+ore-max-height: 40
+# Default 20, the height where the generator will START generating ore.
+ore-height-offset: 20;
+
+# Effects
+# Default 207 out of 1000, chance for the plugin to consider a bout of blindness for a player in the dark world upon damage.
+blindness-one: 207
+# Default 50 out of 1000, chance for the plugin to apply double the blindness in the previous scenario.
+blindness-two: 50
+# Default 17 out of 1000, chance to independently apply double blindness and nausea to the player upon damage in the dark world.
+blindness-three:
+# Default 50, chance to play the background noise upon entity spawn in the dark world. Useful if it gets annoying.
+noise-chance: 50

@@ -1,0 +1,4 @@
+name: SpecDark
+main: specdark.SpecDark
+version: 1.0
+load: startup
